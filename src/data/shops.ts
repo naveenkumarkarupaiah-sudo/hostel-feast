@@ -8,7 +8,8 @@ export const shops: Shop[] = [
     rating: 4.5,
     deliveryTime: '25-30 mins',
     distance: '0.5 km',
-    isOpen: true
+    isOpen: true,
+    whatsappNumber: '919876543210'
   },
   {
     id: '2',
@@ -17,7 +18,8 @@ export const shops: Shop[] = [
     rating: 4.2,
     deliveryTime: '20-25 mins',
     distance: '0.8 km',
-    isOpen: true
+    isOpen: true,
+    whatsappNumber: '919876543211'
   },
   {
     id: '3',
@@ -26,7 +28,8 @@ export const shops: Shop[] = [
     rating: 4.7,
     deliveryTime: '30-35 mins',
     distance: '1.2 km',
-    isOpen: false
+    isOpen: false,
+    whatsappNumber: '919876543212'
   },
   {
     id: '4',
@@ -35,7 +38,8 @@ export const shops: Shop[] = [
     rating: 4.0,
     deliveryTime: '15-20 mins',
     distance: '0.3 km',
-    isOpen: true
+    isOpen: true,
+    whatsappNumber: '919876543213'
   },
   {
     id: '5',
@@ -44,6 +48,7 @@ export const shops: Shop[] = [
     rating: 4.3,
     deliveryTime: '25-30 mins',
     distance: '0.7 km',
-    isOpen: true
+    isOpen: true,
+    whatsappNumber: '919876543214'
   }
 ];

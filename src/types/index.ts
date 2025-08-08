@@ -6,6 +6,7 @@ export interface Shop {
   deliveryTime: string;
   distance: string;
   isOpen: boolean;
+  whatsappNumber: string;
 }
 
 export interface MenuItem {

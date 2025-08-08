@@ -31,8 +31,8 @@ Order: ${orderItems}
 Total: ₹${totalPrice}
 Shop: ${selectedShop.name}`;
 
-    // WhatsApp URL (replace with actual shop WhatsApp number)
-    const whatsappNumber = "919999999999"; // Replace with actual shop number
+    // WhatsApp URL with shop's specific number
+    const whatsappNumber = selectedShop.whatsappNumber;
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, '_blank');
